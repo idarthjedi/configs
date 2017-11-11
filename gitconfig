@@ -5,3 +5,5 @@ name = Jediah Logiodice
 
 [core]
 	editor = vim
+[alias]
+	hist = log --all --graph --decorate --oneline
