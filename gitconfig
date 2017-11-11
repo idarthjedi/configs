@@ -9,12 +9,19 @@ name = Jediah Logiodice
 	hist = log --all --graph --decorate --oneline
 [merge]
 	tool = kdiff3
+	
 [mergetool "kdiff3"]
 	path = /usr/bin/kdiff3
 	trustExitCode = false
+	prompt = false
 [diff]
 	guitool = kdiff3
-[diff "kdiff3"]
-	path = /usr/bin/kdiff3
+
 [difftool "kdiff3"]
+	path = /usr/bin/kdiff3
 	trustExitCode = false
+	prompt = false
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
