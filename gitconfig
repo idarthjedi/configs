@@ -11,14 +11,14 @@ name = Jediah Logiodice
 	tool = kdiff3
 	
 [mergetool "kdiff3"]
-	path = /usr/bin/kdiff3
+	path = /usr/local/bin/kdiff3
 	trustExitCode = false
 	prompt = false
 [diff]
 	guitool = kdiff3
 
 [difftool "kdiff3"]
-	path = /usr/bin/kdiff3
+	path = /usr/local/bin/kdiff3
 	trustExitCode = false
 	prompt = false
 [difftool]
